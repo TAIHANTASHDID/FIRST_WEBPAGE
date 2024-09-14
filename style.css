@@ -1,0 +1,144 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+    /* header section start here */
+header{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35PX;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+.navbar{
+    display: flex;
+}
+.navbar ul{
+    list-style: none;
+    margin-top: 2%;
+}
+.navbar ul li{
+    background-color: #262626;
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.navbar ul li:hover{
+    background-color: crimson;
+    transition: all ease-in 0.5s ;
+}
+.navbar ul li ul {
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display:block;
+}
+/* header section end here */
+
+/* form section start here */
+
+.form1{
+    background-color: crimson;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 0px auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 30px 80px;
+    margin-top: 30px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form1 input{
+    padding: 5px 50px;
+    border-color:crimson ;
+    border-radius: 50px;
+}
+.form1 .btn{
+    font-weight:bold;
+}
+
+
+/* form section end here */
+
+/* footer section start here */
+
+footer{
+        width: 100%;
+        background-color: #111010;
+        color: white;
+        position:absolute;
+        bottom: 0;
+        text-align: center;
+
+    }
+.name{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+    }
+.text{
+    width: 600px;
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+    top:-50px;
+}
+.icon i{
+    font-size: 40px;
+    position: relative;
+    top: -40px;
+    padding: 10px;
+}
+.coppy{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    line-height: 50px;
+    font-size: 20px;
+
+}
+/* header section end here */
+
+/* header section start here */
+
+@media(max-width:800px){
+    footer{
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    .coppy{
+        height: 40px;
+    }
+    .icon {
+        margin-bottom:-45px;
+    }
+
+}
+
+/* header section end here */
+# FIRST_WEBPAGE
